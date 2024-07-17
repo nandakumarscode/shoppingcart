@@ -1,0 +1,25 @@
+.cart__card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.cart__card img{
+    height:100px;
+}
+
+.cart__card button{
+    border:0;
+    padding: 6px 12px;
+    background: rgb(224, 2, 2);
+    color:#fff;
+    line-height: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart__card button:hover{
+    background: rgb(243, 5, 56);  
+}

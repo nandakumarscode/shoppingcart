@@ -1,0 +1,25 @@
+.flex-d{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.header{
+    border-bottom: 1px solid #ccc;
+    box-shadow:0px 2px 7px -2px #ccc;
+}
+.header img{
+height: 40px;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.header a{
+    padding:5px;
+}
+.header a:hover{
+    background: #27abdb;
+    color:#fff;
+    border-radius: 10px;
+}
